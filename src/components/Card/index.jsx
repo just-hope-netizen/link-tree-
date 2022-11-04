@@ -1,6 +1,6 @@
 import { Card } from 'react-bootstrap';
 
-export const CardComponent = ({text, link, id}) => {
+export const CardComponent = ({text, link, id, children}) => {
   return (
     <Card
       style={{
@@ -13,6 +13,7 @@ export const CardComponent = ({text, link, id}) => {
       }}
     >
       <Card.Body>
+        {children}
         <Card.Link
           href={link}
           id={id}

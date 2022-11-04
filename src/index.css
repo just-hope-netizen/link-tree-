@@ -34,7 +34,6 @@ body {
   margin-bottom: 64px !important;
 }
 footer{
-
   padding: 48px 0;
 }
 footer div{
@@ -53,6 +52,12 @@ footer p{
   text-align: center;
   color: #667085;
   font-size: 16px;
+}
+
+.util-label{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
 }
 @media (max-width: 425px) {
   .card {
