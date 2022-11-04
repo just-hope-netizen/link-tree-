@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 export const Contact = () => {
   return (
     <div className="container-fluid">
-      <Container style={{ maxWidth: "720px", margin: "156px auto 0" }}>
+      <Container className="contact-container">
         <header>
           <h1
             style={{ fontWeight: "600", fontSize: "36px", lineHeight: "44px" }}

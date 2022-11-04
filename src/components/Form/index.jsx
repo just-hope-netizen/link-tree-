@@ -46,16 +46,7 @@ export const ContactForm = () => {
         label={`You agree to providing your data to {name} who may contact you.`}
       />
       <Col>
-        <Button
-          type="submit"
-          id="btn_submit"
-          style={{
-            width: "100%",
-            margin: "32px 0 150px",
-            fontSize: "16px",
-            fontWeight: "600",
-          }}
-        >
+        <Button type="submit" id="btn_submit">
           Send message
         </Button>
       </Col>
