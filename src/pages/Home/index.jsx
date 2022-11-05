@@ -5,7 +5,7 @@ import gitIcon from "../../assets/img/Icon.png";
 import { Link } from "react-router-dom";
 import { Footer } from "../../components/Footer";
 
-const slackUserName = "Hope Peter";
+export const slackUserName = "Hope Peter";
 
 export const Home = () => {
   return (

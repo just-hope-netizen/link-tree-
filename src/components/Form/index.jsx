@@ -2,6 +2,7 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
+import { slackUserName } from "../../pages/Home";
 
 export const ContactForm = () => {
   return (
@@ -43,7 +44,8 @@ export const ContactForm = () => {
         type={"checkbox"}
         id={`message`}
         style={{ fontSize: "16px", fontWeight: "400" }}
-        label={`You agree to providing your data to {name} who may contact you.`}
+        label={`You agree to providing your data to 
+        ${slackUserName} who may contact you.`}
       />
       <Col>
         <Button type="submit" id="btn_submit">
