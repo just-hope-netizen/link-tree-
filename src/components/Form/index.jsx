@@ -7,9 +7,9 @@ import { slackUserName } from "../../pages/Home";
 export const ContactForm = () => {
   return (
     <Form>
-      <Row className="mb-3">
+      <Row className="mb-3 flex-column flex-md-row">
         <Col>
-          <Form.Group as={Col}>
+          <Form.Group as={Col} className="mb-3 mb-md-0">
             <Form.Label className="mb-0 util-label">First name</Form.Label>
             <Form.Control placeholder="Enter your first name" id="first_name" />
           </Form.Group>

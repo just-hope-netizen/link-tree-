@@ -50,7 +50,7 @@ export const Home = () => {
             color: "#101828",
           }}
         >
-          Contact
+          Contact Me
         </Link>
       </CardComponent>
 
